@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://canno4rahst1q"]
+
+[ext_resource type="Texture2D" uid="uid://dhn86xobe5nq" path="res://assets/sprites/Levels/TempLevel/TempLevelAssetGnd.png" id="1_spaar"]
+[ext_resource type="PackedScene" uid="uid://kklgwxs10pn" path="res://scenes/characters/MainCharacter.tscn" id="2_kyqii"]
+
+[node name="TempLevel" type="Node2D"]
+
+[node name="TempLevelAssetGnd" type="Sprite2D" parent="."]
+position = Vector2(290.75, 575.968)
+scale = Vector2(1.80685, 2.36842)
+texture = ExtResource("1_spaar")
+
+[node name="TempLevelAssetGnd2" type="Sprite2D" parent="."]
+position = Vector2(966.5, 573.968)
+scale = Vector2(2.37578, 2.368)
+texture = ExtResource("1_spaar")
+
+[node name="MainCharacter" parent="." instance=ExtResource("2_kyqii")]
+position = Vector2(113, 414)
